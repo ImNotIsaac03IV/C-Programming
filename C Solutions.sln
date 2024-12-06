@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BalkenLänge", "BalkenLäng
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Zahlenstatistik", "Zahlenstatistik\Zahlenstatistik.vcxproj", "{F1F2C905-5B67-432F-AB86-DC4569B74E2B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mehrwertsteuer", "Mehrwertsteuer\Mehrwertsteuer.vcxproj", "{6F3F3C51-2793-492E-A5CE-0BBAB200D534}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{F1F2C905-5B67-432F-AB86-DC4569B74E2B}.Release|x64.Build.0 = Release|x64
 		{F1F2C905-5B67-432F-AB86-DC4569B74E2B}.Release|x86.ActiveCfg = Release|Win32
 		{F1F2C905-5B67-432F-AB86-DC4569B74E2B}.Release|x86.Build.0 = Release|Win32
+		{6F3F3C51-2793-492E-A5CE-0BBAB200D534}.Debug|x64.ActiveCfg = Debug|x64
+		{6F3F3C51-2793-492E-A5CE-0BBAB200D534}.Debug|x64.Build.0 = Debug|x64
+		{6F3F3C51-2793-492E-A5CE-0BBAB200D534}.Debug|x86.ActiveCfg = Debug|Win32
+		{6F3F3C51-2793-492E-A5CE-0BBAB200D534}.Debug|x86.Build.0 = Debug|Win32
+		{6F3F3C51-2793-492E-A5CE-0BBAB200D534}.Release|x64.ActiveCfg = Release|x64
+		{6F3F3C51-2793-492E-A5CE-0BBAB200D534}.Release|x64.Build.0 = Release|x64
+		{6F3F3C51-2793-492E-A5CE-0BBAB200D534}.Release|x86.ActiveCfg = Release|Win32
+		{6F3F3C51-2793-492E-A5CE-0BBAB200D534}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
