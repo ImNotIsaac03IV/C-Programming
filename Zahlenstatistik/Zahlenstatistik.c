@@ -9,19 +9,25 @@ int main() {
 	int max2 = 0;
 	printf("Please enter a number or 0 to exit: ");
 	scanf_s("%d", &input);
-	while (input != 0) {
-		
-		if (input % 2 == 0) {
+
+	while (input != 0) 
+	{		
+		if (input % 2 == 0) 
+		{
 			sum += input;
 			counter++;
 		}
-		if (input > max1) {
+
+		if (input > max1) 
+		{
 			max2 = max1;
 			max1 = input;
 		}
-		else {
-			if (input < max1 && input > max2) {
-				input = max2;
+		else 
+		{
+			if ((input <= max1) && (input > max2)) 
+			{
+				max2 = input;
 			}
 		}
 		printf("Please enter a number or 0 to exit: ");
